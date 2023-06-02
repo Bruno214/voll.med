@@ -30,4 +30,16 @@ public class Paciente {
         this.cpf = dados.cpf();
         this.endereco = new EnderecoJPA(dados.endereco());
     }
+
+    public void atualizarInformacoes(DadosAtualizaPaciente dados) {
+        if (dados.nome() != null) {
+            this.nome = dados.nome();
+        }
+        if (dados.telefone().matches("\\d{11}")) {
+            this.telefone = dados.telefone();
+        }
+        if (dados.endereco() != null) {
+            this.endereco.atualizaInformacoes(dados.endereco());
+        }
+    }
 }
