@@ -1,4 +1,4 @@
-package med.voll.API.medico;
+package med.voll.API.domain.medico;
 
 public enum Especialidade {
     ORTOPEDIA,

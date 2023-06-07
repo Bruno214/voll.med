@@ -1,6 +1,5 @@
-package med.voll.API.endereco;
+package med.voll.API.domain.endereco;
 
-import jakarta.persistence.Embedded;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

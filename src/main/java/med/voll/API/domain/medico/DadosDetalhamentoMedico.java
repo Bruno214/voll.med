@@ -1,6 +1,6 @@
-package med.voll.API.medico;
+package med.voll.API.domain.medico;
 
-import med.voll.API.endereco.EnderecoJPA;
+import med.voll.API.domain.endereco.EnderecoJPA;
 
 public record DadosDetalhamentoMedico(long id, String nome, String email, String telefone, String crm, Especialidade especialidade, EnderecoJPA endereco, boolean ativo) {
     public DadosDetalhamentoMedico(Medico dados) {

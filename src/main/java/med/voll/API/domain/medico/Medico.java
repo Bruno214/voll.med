@@ -1,11 +1,11 @@
-package med.voll.API.medico;
+package med.voll.API.domain.medico;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.API.endereco.EnderecoJPA;
+import med.voll.API.domain.endereco.EnderecoJPA;
 
 // entidade JPA
 @Table(name= "medicos")
